@@ -1,13 +1,13 @@
 import './styles/tailwind.css';
+import NavBar from "./components/navbar/NavBar";
+
 
 function App() {
-  return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <h1 className="text-4xl font-bold text-blue-500">
-          Welcome to Saad Beidouri's Page
-        </h1>
-      </div>
-  );
+    return (
+        <>
+            <NavBar />
+        </>
+    );
 }
 
 export default App;
