@@ -11,8 +11,10 @@ body {
     sans-serif, 'Regikan';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #152238;
+  background: linear-gradient(to bottom, #152238 80%, #1f3955) no-repeat;
+  min-height: 100vh;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

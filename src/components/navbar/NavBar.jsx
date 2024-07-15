@@ -21,7 +21,6 @@ const NavBar = () => {
     return (
         <div className='bg-[#1c2e4a] flex justify-between items-center max-w-[70%] mx-auto px-4 text-white rounded-[30px] m-[10px] border-[#00df9a] border-2 '>
             {/* Logo */}
-            <h1 className='w-full text-3xl font-bold text-white ml-6'>SB</h1>
 
             {/* Desktop Navigation */}
             <ul className='hidden md:flex'>
@@ -49,7 +48,7 @@ const NavBar = () => {
                 }
             >
                 {/* Mobile Logo */}
-                <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Saad Beidouri</h1>
+                <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>SB</h1>
 
                 {/* Mobile Navigation Items */}
                 {navItems.map(item => (
