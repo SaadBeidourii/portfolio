@@ -6,7 +6,7 @@ import TimelineItem from '../components/timeline/Timeline';
 
 const HomePage = () => {
     return (
-        <div className="px-4 flex-grow space-y-6">
+        <div className="px-4 flex-grow space-y-6 p-2">
             <div className="rounded-lg p-6 border border-[#00df9a]">
                 <div className="mb-12">
                     <div className="ml-10 mt-10 justify-center items-baseline">

@@ -14,10 +14,8 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="*" element={<h1>Not Found</h1>} />
                 </Routes>
-            </div>
-            <div className="text-red-600 text-2xl md:text-3xl m-3 text-center">
-                <h1>This page is currently under development</h1>
             </div>
         </div>
     );
