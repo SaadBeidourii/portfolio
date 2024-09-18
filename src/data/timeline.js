@@ -3,13 +3,27 @@
 const educationItems = [
     {
         icon: (
-            <svg className="w-2.5 h-2.5 text-black dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            <svg className="w-2.5 h-2.5 text-black dark:text-black" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+        ),
+        title: "5th Year Engineering Cycle, Polytech Nice Sophia",
+        date: "2024 – present",
+        tag: "Education",
+        description: "Specializing in software engineering, with a focus on IHM and UX/UI design."
+    },
+    {
+        icon: (
+            <svg className="w-2.5 h-2.5 text-black dark:text-black" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
             </svg>
         ),
         title: "4th Year Engineering Cycle, Polytech Nice Sophia",
-        date: "2023 – Present",
-        tag: "Education",
+        date: "2023 – 2024",
         description: "Enhancing skills in Machine Learning, Java RMI, and software security. Focus on advanced software design, ISA/DevOps using Spring Boot, Web Development, and 3D design with Unity and Blender."
     },
     {
@@ -51,9 +65,21 @@ const professionalItems = [
                 <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
             </svg>
         ),
+        title: "ProBTP , Apprentice Full Stack Developer",
+        date: "September 2024 – Present",
+        tag: "Apprentice",
+        description: "Developing a Grafana monitoring tool for the company's internal use, enhancing data visualization and analysis."
+
+
+    },
+    {
+        icon: (
+            <svg className="w-2.5 h-2.5 text-black dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+        ),
         title: "Mines Paris - PSL , Apprenticeship Intern",
-        date: "May 2024 – Present",
-        tag: "Internship",
+        date: "May 2024 – August 2024",
         description: "Developed a web/native application for doctoral students to track TIMES scenario resolutions, enhancing energy policy analysis. Gained experience with Python, NiceGUI, Portainer, Docker, and MySQL."
     },
     {

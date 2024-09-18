@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faAnchor, faLaptop, faGamepad, faUtensils, faBrain } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faAnchor, faLaptop, faGamepad, faUtensils, faBrain, faDollar } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faCoffee, faAnchor, faLaptop, faGamepad, faUtensils, faBrain);
+library.add(faCoffee, faAnchor, faLaptop, faGamepad, faUtensils, faBrain, faDollar);
 
 const projects = [
     {
@@ -25,6 +25,12 @@ const projects = [
         description: "Utilized Socket.io for real-time communication in a web-based strategic board game, enhancing player interaction and game dynamics with an AI algorithm for a modified Quoridor game with fog of war elements.",
         icon: () => <FontAwesomeIcon icon="gamepad" />
     },
+    {
+        title: "Budgeteer",
+        description: "Developed a budgeting application for Android devices, enabling users to track their roommates' expenses and manage shared expenses, enhancing financial transparency and accountability.",
+        icon: () => <FontAwesomeIcon icon="dollar" />
+
+    }
 
 ];
 
