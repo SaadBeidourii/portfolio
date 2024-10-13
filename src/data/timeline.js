@@ -68,7 +68,7 @@ const professionalItems = [
         title: "ProBTP , Apprentice Full Stack Developer",
         date: "September 2024 – Present",
         tag: "Apprentice",
-        description: "Developing a Grafana monitoring tool for the company's internal use, enhancing data visualization and analysis. Using Prometheus, Loki, and Grafana to monitor and analyze data."
+        description: "Developing a Grafana monitoring tool for the company's internal use, enhancing data visualization and analysis."
 
 
     },
