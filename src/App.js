@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 
 const App = () => {
     return (
-        <div className="font-regikan text-white min-h-screen flex flex-col mx-3 md:mx-6">
+        <div className="font-regikan min-h-screen flex flex-col mx-3 md:mx-6">
             <title>Saad Beidouri</title>
             <NavBar />
             <div className="px-4 flex-grow space-y-6">
