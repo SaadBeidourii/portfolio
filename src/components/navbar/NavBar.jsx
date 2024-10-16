@@ -14,10 +14,10 @@ const NavBar = () => {
     ];
 
     return (
-        <div className='bg-[#1c2e4a] flex justify-between items-center max-w-[70%] mx-auto px-4 text-white rounded-[30px] m-[10px] border-[#00df9a] border-2 '>
+        <div className='bg-[#b7b7b7] flex justify-between items-center max-w-[70%] mx-auto px-4 text-black rounded-[30px] m-[10px] border-black border-2 '>
             <ul className='hidden md:flex'>
                 {navItems.map(item => (
-                    <li key={item.id} className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>
+                    <li key={item.id} className='p-4 hover:bg-[#2a6a55] rounded-xl m-2 cursor-pointer duration-300 hover:text-white'>
                         <Link to={item.link}>{item.text}</Link>
                     </li>
                 ))}
