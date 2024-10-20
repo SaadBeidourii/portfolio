@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from '../data/projects';
+import sortedProjects from "../data/projects";
 import { educationItems, professionalItems } from '../data/timeline';
 import Card from '../components/cards/Card';
 import TimelineItem from '../components/timeline/Timeline';
@@ -43,10 +43,11 @@ const HomePage = () => {
                     <div className="rounded-lg p-6 border border-black flex-grow">
                         <h2 className="text-2xl md:text-4xl font-bold mb-6 text-black">Projects</h2>
                         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            {projects.map((project, index) => (
+                            {sortedProjects.map((project, index) => (
                                 <Card
                                     key={index}
                                     title={project.title}
+                                    status={project.status}
                                     description={project.description}
                                     icon={project.icon}
                                 />
