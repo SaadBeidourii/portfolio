@@ -25,9 +25,9 @@ const NavBar = () => {
             <div onClick={handleNav} className='md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
-            <ul className={nav ? 'fixed md:hidden left-0 top-0 w-[30%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'}>
+            <ul className={nav ? 'fixed md:hidden left-0 top-0 w-[30%] h-full border-r border-r-gray-900 bg-[#b7b7b7] ease-in-out duration-500' : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'}>
                 {navItems.map(item => (
-                    <li key={item.id} className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'>
+                    <li key={item.id} className='p-4 border-b rounded-xl hover:bg-[#2a6a55] duration-300 hover:text-white cursor-pointer border-gray-600'>
                         <Link to={item.link} onClick={() => setNav(false)}>{item.text}</Link>
                     </li>
                 ))}

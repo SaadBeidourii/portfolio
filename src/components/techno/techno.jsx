@@ -9,7 +9,7 @@ const Techno = () => {
                     <i className="devicon-kotlin-plain hover:text-[#7F52FF]"></i> {/* Kotlin */}
                     <i className="devicon-c-plain hover:text-[#A8B9CC]"></i> {/* C */}
                     <i className="devicon-cplusplus-plain hover:text-[#00599C]"></i> {/* C++ */}
-                    <i className="devicon-csharp-plain hover:text-[#239120]"></i> {/* C# */}
+                    <i className="devicon-csharp-plain hover:text-[#7F52FF]"></i> {/* C# */}
                     <i className="devicon-python-plain hover:text-[#3776AB]"></i> {/* Python */}
                     <i className="devicon-java-plain hover:text-[#007396]"></i> {/* Java */}
                     <i className="devicon-javascript-plain hover:text-[#F7DF1E]"></i> {/* JavaScript */}
