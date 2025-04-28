@@ -4,6 +4,7 @@ import { educationItems, professionalItems } from '../data/timeline';
 import Card from '../components/cards/Card';
 import TimelineItem from '../components/timeline/Timeline';
 import Techno from "../components/techno/techno";
+import { Github } from 'lucide-react';
 
 const HomePage = () => {
     return (
@@ -16,18 +17,50 @@ const HomePage = () => {
                             Full Stack Engineer
                         </h2>
                     </div>
-                    <div className="text-justify max-w-[70%] mx-auto mt-10 text-xl">
+                    <div className="text-justify max-w-[70%] mx-auto mt-10 text-xl relative">
                         <p>
                             Hello, I am Saad Beidouri, a dedicated computer engineering student currently in my fifth year at <a
-                                href="https://polytech.univ-cotedazur.fr/"
-                                className="text-black font-bold dark:text-bg-[#00df9a] hover:no-underline hover:bg-[#2a6a55] hover:text-white"
-                            >
-                                 Polytech Nice Sophia </a>
-                             in France. My academic journey began with a rigorous foundation in mathematics and computer science
+                            href="https://polytech.univ-cotedazur.fr/"
+                            className="text-black font-bold dark:text-bg-[#00df9a] hover:no-underline hover:bg-[#2a6a55] hover:text-white"
+                        >
+                            Polytech Nice Sophia </a>
+                            in France. My academic journey began with a rigorous foundation in mathematics and computer science
                             during my preparatory studies in Saint-Brieuc, France. After completing two years in classes
                             préparatoires aux grandes écoles (CPGE) in Saint-Brieuc, I transitioned to Polytech Nice Sophia to
                             further develop my skills.
                         </p>
+
+                        {/* Social links and CV downloads - positioned at bottom right */}
+                        <div className="flex justify-end mt-6">
+                            <div className="flex items-center space-x-4">
+                                <a
+                                    href="https://github.com/SaadBeidourii"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center text-black hover:text-[#2a6a55] transition-colors"
+                                >
+                                    <Github size={24} className="mr-1" />
+                                    <span>GitHub</span>
+                                </a>
+
+                                <div className="flex items-center space-x-3">
+                                    <a
+                                        href="/cv/CV-Saad%20Beidouri-%20FR.pdf"
+                                        download
+                                        className="px-4 py-2 bg-black text-white rounded-md hover:bg-[#2a6a55] transition-colors"
+                                    >
+                                        CV Français
+                                    </a>
+                                    <a
+                                        href="/cv/CV-Saad%20Beidouri-%20EN.pdf"
+                                        download
+                                        className="px-4 py-2 bg-black text-white rounded-md hover:bg-[#2a6a55] transition-colors"
+                                    >
+                                        CV English
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
