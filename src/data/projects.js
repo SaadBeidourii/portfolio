@@ -37,9 +37,9 @@ const projects = [
 
     },
     {
-        title: "Zabbix Prometheus Exporter Using Go",
+        title: "MediaHub",
         status : "In Progress",
-        description: "Developed a Zabbix Prometheus exporter in Go to monitor Zabbix metrics in Prometheus, enabling users to visualize Zabbix metrics in Grafana.",
+        description: "Web application allowing users to organize and manage their digital media libraries. Using GoLang for the backend and Angular for the frontend, it provides a user-friendly interface for media management.",
         icon: () => <FontAwesomeIcon icon="anchor" />
     }
 

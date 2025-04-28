@@ -32,14 +32,15 @@ const HomePage = () => {
 
                         {/* Social links and CV downloads - positioned at bottom right */}
                         <div className="flex justify-end mt-6">
-                            <div className="flex items-center space-x-4">
+                            <div
+                                className="flex flex-col items-end space-y-4 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4">
                                 <a
                                     href="https://github.com/SaadBeidourii"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center text-black hover:text-[#2a6a55] transition-colors"
                                 >
-                                    <Github size={24} className="mr-1" />
+                                    <Github size={24} className="mr-1"/>
                                     <span>GitHub</span>
                                 </a>
 
@@ -68,7 +69,7 @@ const HomePage = () => {
 
             <div className="space-y-6 lg:flex lg:space-x-6 lg:space-y-0">
 
-                <div className="space-y-6 lg:flex lg:flex-col lg:space-x-0 lg:space-y-6">
+            <div className="space-y-6 lg:flex lg:flex-col lg:space-x-0 lg:space-y-6">
                     <div className="rounded-lg p-6 border border-black flex-grow">
                         <Techno />
                     </div>
