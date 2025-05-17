@@ -33,6 +33,7 @@ const projects = [
         title: "Budgeteer",
         status : "In Progress",
         description: "Developed a budgeting application for Android devices, enabling users to track their roommates' expenses and manage shared expenses, enhancing financial transparency and accountability.",
+        githubLink: "https://github.com/AnasChhilif/Budgeteer",
         icon: () => <FontAwesomeIcon icon="dollar" />
 
     },
@@ -40,6 +41,7 @@ const projects = [
         title: "MediaHub",
         status : "In Progress",
         description: "Web application allowing users to organize and manage their digital media libraries. Using GoLang for the backend and Angular for the frontend, it provides a user-friendly interface for media management.",
+        githubLink: "https://github.com/SaadBeidourii/MediaHub",
         icon: () => <FontAwesomeIcon icon="anchor" />
     }
 
