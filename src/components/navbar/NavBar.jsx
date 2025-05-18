@@ -1,4 +1,3 @@
-"use client"
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
@@ -40,8 +39,19 @@ const NavBar = () => {
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-                <nav className="hidden md:flex items-center space-x-4">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+                {/* Burger menu button on the left */}
+                <div className="md:hidden">
+                    <button
+                        onClick={handleNav}
+                        className="p-3 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                    >
+                        {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
+                    </button>
+                </div>
+
+                {/* Navigation links centered */}
+                <nav className="hidden md:flex items-center space-x-4 mx-auto">
                     {navItems.map((item) => {
                         const isActive = location.pathname === item.link
                         return (
@@ -60,19 +70,15 @@ const NavBar = () => {
                     })}
                 </nav>
 
-                <button
-                    onClick={handleNav}
-                    className="md:hidden p-3 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
-                >
-                    {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
-                </button>
+                {/* Empty div to balance the layout on desktop */}
+                <div className="hidden md:block"></div>
             </div>
 
-            {/* Mobile menu */}
+            {/* Mobile menu - Now with fixed background color */}
             <div
-                className={`md:hidden fixed inset-y-0 right-0 transform ${
-                    nav ? "translate-x-0" : "translate-x-full"
-                } w-64 bg-white dark:bg-gray-900 shadow-xl transition-transform duration-300 ease-in-out z-50`}
+                className={`md:hidden fixed inset-y-0 left-0 transform ${
+                    nav ? "translate-x-0" : "translate-x-[-100%]"
+                } w-64 bg-white dark:bg-gray-900 shadow-xl transition-transform duration-300 ease-in-out z-[100]`}
             >
                 <div className="p-6 space-y-2">
                     <div className="flex justify-end">
