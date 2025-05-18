@@ -15,7 +15,7 @@ const HomePage = () => {
             transition={{ duration: 0.5 }}
         >
             {/* Hero Section */}
-            <section className="mb-16">
+            <section className="mb-[10px]">
                 <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden">
                     <div className="relative">
                         <div className="absolute inset-0 bg-gradient-to-r from-[#2a6a55]/10 to-emerald-400/10"></div>
@@ -112,12 +112,12 @@ const HomePage = () => {
             </section>
 
             {/* Tech Stack Section */}
-            <section className="mb-16">
+            <section className="mb-[10px]">
                 <Techno/>
             </section>
 
             {/* Projects Section */}
-            <section className="mb-16">
+            <section className="mb-[10px]">
                 <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8">
                     <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#2a6a55] to-emerald-400">
