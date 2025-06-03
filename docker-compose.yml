@@ -1,8 +1,11 @@
+version: '3.8'
+
 services:
   app:
-    build: .
+    image: ${DOCKER_USERNAME}/portfolio:latest
     ports:
       - "4173:4173"
+    restart: unless-stopped
 
   caddy:
     image: caddy:2-alpine
@@ -13,3 +16,4 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
     depends_on:
       - app
+    restart: unless-stopped
