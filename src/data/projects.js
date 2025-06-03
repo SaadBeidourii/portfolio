@@ -33,7 +33,7 @@ const projects = [
         title: "Budgeteer",
         status : "In Progress",
         description: "Developed a budgeting application for Android devices, enabling users to track their roommates' expenses and manage shared expenses, enhancing financial transparency and accountability.",
-        githubLink: "https://github.com/AnasChhilif/Budgeteer",
+        githubLink: "https://github.com/orgs/budgeteer-app/repositories",
         icon: () => <FontAwesomeIcon icon="dollar" />
 
     },
